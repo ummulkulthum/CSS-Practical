@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Search Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+        }
+        .search-form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .search-input {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+        .search-btn {
+            padding: 10px 10px;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            background-color: #b5bcc6;
+            color: #fff;
+            cursor: pointer;
+            left: 20%;
+            transition: background-color 0.3s;
+        }
+        .search-btn:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form class="search-form" action="https://www.google.com/search" method="GET">
+            <input class="search-input" type="text" name="q">
+        </form>
+        <button class="search-btn" type="submit">Google search</button>
+        <button class="search-btn">I'm felling lucky</button>
+    </div>
+</body>
+</html>
